@@ -1,0 +1,98 @@
+.chat{
+  flex: 0.65;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.chatheader{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+
+
+}
+.chatheader_info{
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chatheader_info > h3{
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.chatheader_info > p{
+  color: grey;
+}
+.chatheader_right{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+
+.chatbody{
+  /* background-image: url('https://img.freepik.com/free-vector/modern-mobile-phone-with-icons-background_23-2147574295.jpg?t=st=1730533669~exp=1730537269~hmac=b42569db1248f16411dd9bc295bc6d53573a45680038488405a248d5b6c342e5&w=1060'); */
+  flex: 1;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
+  background-color: rgba(180, 184, 185, 0.959);
+
+}
+
+.chatmsg{
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.chat_name{
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+.chat_timestamp{
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chat_receiver{
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.chatfooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+
+}
+
+.chatfooter > form{
+  flex: 1;
+  display: flex;
+  /* background-color: black; */
+}
+
+.chatfooter > form > input{
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+
+}
+
+.chatfooter > form > button{
+  display: none;
+}
+.chatfooter > .MuiSvgIcon-root{
+  color: grey;
+  margin: 10px;
+}
