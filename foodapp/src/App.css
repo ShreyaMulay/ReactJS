@@ -1,0 +1,155 @@
+.nav{
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#393e46;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.searchContainer{
+  margin: 20px auto  ;
+  position: relative;
+  width: 300px;
+}
+.searchInput{
+  border: none;
+  border-bottom: 1px solid #e3e4dc;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  color: #393e46;
+}
+
+.parentContainer{
+    display: flex;
+
+}
+.itemContainer{
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+  overflow: hidden;
+  font-family: Polysans, sans-serif;
+}
+.itemImage{
+    max-width: 100%;
+    height: auto;
+}
+.itemContent{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.itemName{
+  font-size: 1em;
+  font-weight: 600;
+  color: #393e46;
+}
+.itemButton{
+  background-color: #29bb89;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+
+
+}
+.btnContainer{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.innerContainer{
+  /* background-color: aqua; */
+  flex:1;
+  padding: 10px;
+  margin: 10px;
+}
+.recipeCard{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: Polysans, sans-serif;
+  color: #393e46
+
+}
+
+
+.recipeName{
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+.recipeImg{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.recipeDetails{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.recipeInstr{
+  padding: 0;
+  border-radius: 5px;
+  color:#adaab0;
+
+}
+
+.recipeInstr ol{
+  margin-left: 0px;
+
+}
+
+.recipeInstr li{
+  margin: 10px 0px;
+}
+
+
+.imgContainer{
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.imgConImage{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+.img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+.imgContName{
+  margin-left: 50px;
+}
+
+.imgContname{
+  font-size: larger;
+  font-weight: bold;
+}
+.imgContamt{
+  font-weight: bold;
+  margin-top: 10px;
+}
